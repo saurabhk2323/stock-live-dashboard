@@ -75,7 +75,7 @@ Initializes Cosmos DB and loads master data.
 ---
 
 ### 3️⃣ Start Backend Services
-# API
+#### API
 ```bash
 cd ../StockLiveDashboard
 dotnet run --urls="http://localhost:5000"
@@ -83,7 +83,7 @@ dotnet run --urls="http://localhost:5000"
 
 ---
 
-# Worker (Simulates stock price updates)
+#### Worker (Simulates stock price updates)
 ```bash
 cd ../StockLiveDashboard.WorkerService
 dotnet run --urls="http://localhost:5001"
