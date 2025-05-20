@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-StockLiveDashboard.WorkerService-6ecdb387-5bc2-4ffa-9cde-68c467325f07</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockLiveDashboard.Contracts\StockLiveDashboard.Contracts.csproj" />
+    <ProjectReference Include="..\StockLiveDashboard.Services\StockLiveDashboard.Services.csproj" />
+  </ItemGroup>
+</Project>

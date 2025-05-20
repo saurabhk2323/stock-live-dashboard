@@ -1,0 +1,35 @@
+.notification-bar {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    position: fixed;
+    top: 60px;
+    z-index: 999;
+  }
+  
+  .notification-bar p {
+    margin: 0;
+  }
+  
+  .notification-bar.info {
+    background-color: #b1b7b8;
+    opacity: 50%;
+    color: black;
+  }
+  
+  .notification-bar.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .notification-bar.warning {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .notification-bar.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  

@@ -1,0 +1,33 @@
+nav {
+    background-color:rgb(3, 42, 54);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav-left {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+ul.nav-right {
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

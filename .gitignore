@@ -1,0 +1,19 @@
+# === React (client) ===
+client/node_modules/
+client/.env
+client/build/
+
+# === .NET Core (server) ===
+server/**/bin/
+server/**/obj/
+server/**/.vscode/
+server/**/.vs/
+server/**/.user
+server/**/TestResults/
+
+# === Common ===
+*.log
+.DS_Store
+.idea/
+.vscode/
+.env

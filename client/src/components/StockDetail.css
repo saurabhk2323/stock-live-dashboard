@@ -1,0 +1,122 @@
+.overlay-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.overlay-box {
+  background-color: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  font-size: 22px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.live-price {
+  font-size: 18px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.volume-section, .holdings-section {
+  margin-bottom: 16px;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.buy-button, .sell-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buy-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.sell-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.stock-info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.volume-card, .holdings-card {
+  border: 1px solid #ccc;
+  border-left: 6px solid #007bff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.volume-card h4, .holdings-card h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.volume-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.bar.buyers {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.bar.sellers {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.holdings-card p {
+  font-size: 14px;
+  margin: 0;
+}

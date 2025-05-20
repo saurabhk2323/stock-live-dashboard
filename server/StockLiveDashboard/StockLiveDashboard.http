@@ -1,0 +1,6 @@
+@StockLiveDashboard_HostAddress = http://localhost:5119
+
+GET {{StockLiveDashboard_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
