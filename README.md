@@ -110,8 +110,18 @@ No secrets or keys are exposed.
 ---
 
 ## 📸 Screenshots
-  ### 📷 Screenshots to be added here soon. Stay tuned!
+  ### 📊 Live Stock Dashboard
+  ![Dashboard Screenshot](screenshots/dashboard.png)
 
+  ### 📊 Stock Detail
+  ![Stock Detail Screenshot](screenshots/stock-detail.png)
+
+  ### 📦 Place order screen
+  ![Place order Screenshot](screenshots/buy-sell-page.png)
+
+  ### 📦 Orders Page
+  ![Orders Screenshot](screenshots/orders-page.png)
+  
 ---
 
 ## 🧑‍💻 Developed By
